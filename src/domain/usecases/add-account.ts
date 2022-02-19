@@ -1,6 +1,6 @@
 import {AccountModel} from '../models';
 
-// Alguem vai implementar isso
+// The data layer will implement this
 export interface AddAccount {
   add: (params: AddAccount.Params) => Promise<AddAccount.Model>;
 }
@@ -13,5 +13,5 @@ export namespace AddAccount {
     passwordConfirmation: string;
   };
 
-  export type Model = AccountModel;
+  export type Model = AccountModel | undefined;
 }
