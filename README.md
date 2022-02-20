@@ -1,4 +1,4 @@
-# React native clean architecture - A case study
+# React native clean architecture - A study case
 
 ### Summary
 This project is inspired and a rework of [@rmanguinho clean-architecture](https://github.com/rmanguinho/clean-react).
