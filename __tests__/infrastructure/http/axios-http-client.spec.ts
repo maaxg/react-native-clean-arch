@@ -1,5 +1,5 @@
 import axios from 'axios';
-import {AxiosHttpClient} from '../../../src/infrastructure';
+import {AxiosHttpClient} from '../../../src/infrastructure/http';
 import {mockHttpRequest} from '../../data/mocks';
 import {mockAxios} from '../mocks/mock-axios';
 
